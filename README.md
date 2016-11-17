@@ -1,4 +1,4 @@
-demo_debuggin_in_the_browser
+demo_debugging_in_the_browser
 ============================
 
 
