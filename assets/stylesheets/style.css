@@ -1,0 +1,74 @@
+
+
+/* ----------------------------------- *
+ * 1. Form/Table
+ * ----------------------------------- */
+
+#my-form input[type="submit"] {
+  background: red;
+}
+
+
+/* ----------------------------------- *
+ * 2. Clearfix
+ * ----------------------------------- */
+
+.clearfix::before,
+.clearfix::after {
+  display: table;
+  content: " ";
+}
+.clearfix::after {
+  clear: both;
+}
+
+.left {
+  float: left;
+}
+
+.blue {
+  background: blue;
+}
+.yellow {
+  background: yellow;
+}
+.square {
+  width: 64px;
+  height: 64px;
+}
+
+.space {
+  height: 128px;
+}
+
+
+/* ----------------------------------- *
+ * 3. Floats, Padding and Margins
+ * ----------------------------------- */
+
+
+.padding {
+  padding: 1px;
+}
+.margin {
+  margin: 1px;
+}
+.quarter,
+.quarter-calc {
+  height: 64px;
+}
+.quarter {
+  width: 25%;
+}
+.quarter-calc {
+  width: calc(25% - 4px);
+}
+
+
+
+
+
+
+
+
+
